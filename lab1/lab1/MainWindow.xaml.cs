@@ -37,9 +37,8 @@ namespace lab1
 
         private void Stoper_Click(object sender, RoutedEventArgs e)
         {
-            var timerWindow = new Window();
+            TimerWindow timerWindow = new TimerWindow();
             timerWindow.Show();
-            
         }
     }
 }

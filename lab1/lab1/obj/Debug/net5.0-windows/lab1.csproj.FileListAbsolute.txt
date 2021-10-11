@@ -22,3 +22,27 @@ C:\Users\julia\source\repos\lab1\lab1\obj\Debug\net5.0-windows\lab1.pdb
 C:\Users\julia\source\repos\lab1\lab1\obj\Debug\net5.0-windows\lab1.genruntimeconfig.cache
 C:\Users\julia\source\repos\lab1\lab1\obj\Debug\net5.0-windows\timerWindow.g.cs
 C:\Users\julia\source\repos\lab1\lab1\obj\Debug\net5.0-windows\timerWindow.baml
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.exe
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.deps.json
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.runtimeconfig.json
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.runtimeconfig.dev.json
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\ref\lab1.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\bin\Debug\net5.0-windows\lab1.pdb
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\timerWindow.g.cs
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1_MarkupCompile.cache
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1_MarkupCompile.lref
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\timerWindow.baml
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.g.resources
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.AssemblyInfo.cs
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\ref\lab1.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.pdb
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\lab1.genruntimeconfig.cache

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Name="Clock" HorizontalAlignment="Center" VerticalAlignment="Center" Height="84" Width="148" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Name="Timer" Content="STOPER" HorizontalAlignment="Left" Margin="633,356,0,0" VerticalAlignment="Top" Click="Stoper_Click" Height="50" Width="114"/>
+        <Label Name="Clock" Content="Current time" HorizontalAlignment="Center" VerticalAlignment="Center" Height="84" Width="148" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Name="Stoper" Content="STOPER" HorizontalAlignment="Left" Margin="633,356,0,0" VerticalAlignment="Top" Click="Stoper_Click" Height="50" Width="114"/>
 
     </Grid>
 </Window>

@@ -9,7 +9,7 @@
     <Grid>
         <Button Name="Start" Content="START" HorizontalAlignment="Left" Margin="545,117,0,0" VerticalAlignment="Top" Height="73" Width="128" Click="Start_Click"/>
         <Button Name="Stop" Content="STOP" HorizontalAlignment="Left" Margin="545,257,0,0" VerticalAlignment="Top" Height="73" Width="128" Click="Stop_Click"/>
-        <Label Name="Time" Content="Time" HorizontalAlignment="Left" Margin="314,199,0,0" VerticalAlignment="Top" Height="55" Width="124" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Name="Time" HorizontalAlignment="Left" Margin="314,199,0,0" VerticalAlignment="Top" Height="55" Width="124" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

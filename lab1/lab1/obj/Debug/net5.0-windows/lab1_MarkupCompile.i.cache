@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\julia\source\repos\lab1\lab1\obj\Debug\net5.0-windows\
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\obj\Debug\net5.0-windows\
 lab1
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\julia\source\repos\lab1\lab1\App.xaml
-2-1826125257
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab1\lab1\App.xaml
+2-1829237225
 
 61675274397
 193-1891726104
-MainWindow.xaml;timerWindow.xaml;
+MainWindow.xaml;TimerWindow.xaml;
 
 True
 
