@@ -1,0 +1,15 @@
+﻿<Window x:Class="lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="brand" Content="MARKA" HorizontalAlignment="Left" Margin="120,194,0,0" VerticalAlignment="Top" Height="62" Width="126" Click="Button_Click" BorderBrush="Black"/>
+        <Button Name="engine" Content="SILNIK" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="126" Margin="319,194,0,0" Click="Button_Click_1" BorderBrush="Black"/>
+        <Label Name="price" Content="CENA" HorizontalAlignment="Left" Margin="520,194,0,0" VerticalAlignment="Top" Height="62" Width="126" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFDDDDDD" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Button Name="clearPrice" Content="Zeruj cenę" HorizontalAlignment="Left" Margin="548,274,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="clearPrice_Click"/>
+    </Grid>
+</Window>
