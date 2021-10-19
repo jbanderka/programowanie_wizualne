@@ -10,6 +10,7 @@
         <Button Name="brand" Content="MARKA" HorizontalAlignment="Left" Margin="120,194,0,0" VerticalAlignment="Top" Height="62" Width="126" Click="Button_Click" BorderBrush="Black"/>
         <Button Name="engine" Content="SILNIK" HorizontalAlignment="Left" VerticalAlignment="Top" Height="62" Width="126" Margin="319,194,0,0" Click="Button_Click_1" BorderBrush="Black"/>
         <Label Name="price" Content="CENA" HorizontalAlignment="Left" Margin="520,194,0,0" VerticalAlignment="Top" Height="62" Width="126" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFDDDDDD" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Button Name="clearPrice" Content="Zeruj cenę" HorizontalAlignment="Left" Margin="548,274,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="clearPrice_Click"/>
 
     </Grid>
 </Window>

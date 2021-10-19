@@ -15,14 +15,15 @@
         </StackPanel>
         <StackPanel Margin="170,199,400,128">
             <Label Content="Zaznacz wyposażenie:" VerticalContentAlignment="Top" HorizontalContentAlignment="Left"/>
-            <CheckBox Content="podgrzewana kierownica"/>
-            <CheckBox Content="podgrzewane siedzenia"/>
-            <CheckBox Content="napęd 4x4"/>
-            <CheckBox Content="szyberdach"/>
+            <CheckBox Name="steeringWheel" Content="podgrzewana kierownica" Checked="steeringWheel_Checked" Unchecked="steeringWheel_Unchecked"/>
+            <CheckBox Name="seats" Content="podgrzewane siedzenia" Checked="seats_Checked" Unchecked="seats_Unchecked"/>
+            <CheckBox Name="drive" Content="napęd 4x4" Checked="drive_Checked" Unchecked="drive_Unchecked"/>
+            <CheckBox Name="sunroof" Content="szyberdach" Checked="sunroof_Checked" Unchecked="sunroof_Unchecked"/>
         </StackPanel>
         <Label Content="Polisa:" HorizontalAlignment="Left" Margin="170,328,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="170,359,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" Height="30"/>
+        <TextBox Name="insurancePolicy" HorizontalAlignment="Left" Margin="170,359,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" Height="30"/>
         <Button Name="back" Content="POWRÓT" HorizontalAlignment="Left" Margin="480,253,0,0" VerticalAlignment="Top" Height="35" Width="75" Click="back_Click"/>
-        <Label Name="price" Content="cena" HorizontalAlignment="Left" Margin="490,0,0,0" VerticalAlignment="Center" Height="26" Width="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Name="price" Content="0€" HorizontalAlignment="Left" Margin="490,0,0,0" VerticalAlignment="Center" Height="26" Width="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Name="updatePrice" Content="Aktualizuj cenę" HorizontalAlignment="Left" Margin="240,362,0,0" VerticalAlignment="Top" Height="24" Width="90" Click="updatePrice_Click"/>
     </Grid>
 </Window>

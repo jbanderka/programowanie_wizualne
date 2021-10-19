@@ -19,14 +19,74 @@ namespace lab2
     /// </summary>
     public partial class EngineWindow : Window
     {
-        public EngineWindow(object sender)
+        MainWindow mainW;
+        double priceEngine = 0;
+        double pricePower = 0;
+        double brandPrice = 0;
+
+        public EngineWindow(MainWindow window)
         {
             InitializeComponent();
+            mainW = window;
+            brandPrice = FinalPrice.brandPrice;
+            FinalPrice.enginePrice = 0;
+            price.Content = brandPrice + "€";
         }
 
         private void back_Click(object sender, RoutedEventArgs e)
         {
+            FinalPrice.enginePrice = priceEngine + pricePower;
+            mainW.price.Content = FinalPrice.brandPrice + FinalPrice.enginePrice + "€";
             this.Close();
+        }
+
+        private void petrol_Checked(object sender, RoutedEventArgs e)
+        {
+            power.Text = string.Empty;
+            priceEngine = 1000;
+            price.Content = brandPrice + priceEngine + "€";
+        }
+
+        private void diesel_Checked(object sender, RoutedEventArgs e)
+        {
+            power.Text = string.Empty;
+            priceEngine = 1200;
+            price.Content = brandPrice + priceEngine + "€";
+        }
+
+        private void gas_Checked(object sender, RoutedEventArgs e)
+        {
+            power.Text = string.Empty;
+            priceEngine = 1800;
+            price.Content = brandPrice + priceEngine + "€";
+        }
+
+        private void hybrid_Checked(object sender, RoutedEventArgs e)
+        {
+            power.Text = string.Empty;
+            priceEngine = 2000;
+            price.Content = brandPrice + priceEngine + "€";
+        }
+
+        private void power_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (power.SelectedIndex == 0)
+            {
+                pricePower = 50;
+            }
+            if (power.SelectedIndex == 1)
+            {
+                pricePower = 100;
+            }
+            if (power.SelectedIndex == 2)
+            {
+                pricePower = 200;
+            }
+            if (power.SelectedIndex == 3)
+            {
+                pricePower = 450;
+            }
+            price.Content = brandPrice + priceEngine + pricePower + "€";
         }
     }
 }

@@ -7,14 +7,21 @@
         mc:Ignorable="d"
         Title="EngineWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Margin="175,119,490,217">
-            <RadioButton Content="Benzyna"/>
-            <RadioButton Content="Diesel"/>
-            <RadioButton Content="Gaz"/>
-            <RadioButton Content="Hybryda"/>
-
+        <StackPanel Margin="175,156,490,197">
+            <RadioButton Name="petrol" Content="Benzyna" Checked="petrol_Checked"/>
+            <RadioButton Name="diesel" Content="Diesel" Checked="diesel_Checked"/>
+            <RadioButton Name="gas" Content="Gaz" Checked="gas_Checked"/>
+            <RadioButton Name="hybrid" Content="Hybryda" Checked="hybrid_Checked"/>
         </StackPanel>
-        <Button Name="back" Content="POWRÓT" HorizontalAlignment="Left" Margin="525,249,0,0" VerticalAlignment="Top" Height="35" Width="75" Click="back_Click"/>
+        <Button Name="back" Content="POWRÓT" HorizontalAlignment="Left" Margin="525,220,0,0" VerticalAlignment="Top" Height="35" Width="75" Click="back_Click"/>
+        <ComboBox Name="power" HorizontalAlignment="Left" Margin="175,268,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="power_SelectionChanged">
+            <ComboBoxItem Name="power1" Content="80KM"/>
+            <ComboBoxItem Name="power2" Content="100KM"/>
+            <ComboBoxItem Name="power3" Content="120KM"/>
+            <ComboBoxItem Name="power4" Content="160KM"/>
+        </ComboBox>
+        <Label Content="Wybierz moc:" HorizontalAlignment="Left" Margin="175,242,0,0" VerticalAlignment="Top"/>
+        <Label Name="price" Content="0€" HorizontalAlignment="Left" Margin="535,185,0,0" VerticalAlignment="Top" Height="26" Width="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

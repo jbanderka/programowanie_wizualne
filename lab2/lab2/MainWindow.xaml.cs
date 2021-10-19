@@ -36,5 +36,18 @@ namespace lab2
             EngineWindow engineWindow = new EngineWindow(this);
             engineWindow.Show();
         }
+
+        private void clearPrice_Click(object sender, RoutedEventArgs e)
+        {
+            FinalPrice.enginePrice = 0;
+            FinalPrice.brandPrice = 0;
+            price.Content = "0€";
+        }
+    }
+
+    public static class FinalPrice
+    {
+        public static double enginePrice { get; set; }
+        public static double brandPrice { get; set; }
     }
 }
