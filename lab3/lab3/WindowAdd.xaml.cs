@@ -32,6 +32,7 @@ namespace lab3
             List<Row> items = (List<Row>)mainWindow.listV.ItemsSource;
             items.Add(new Row() { Name = addName.Text, Id = mainWindow.id, Count = int.Parse(addCount.Text) });
             mainWindow.listV.ItemsSource = items;
+            mainWindow.listV.Items.Refresh();
             this.Close();
         }
     }

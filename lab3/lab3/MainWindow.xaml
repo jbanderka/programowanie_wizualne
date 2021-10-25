@@ -11,13 +11,13 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="NAME" DisplayMemberBinding="{Binding Name}" Width="110"/>
-                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="100"/>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="80"/>
                     <GridViewColumn Header="COUNT" DisplayMemberBinding="{Binding Count}" Width="110"/>
                 </GridView>
             </ListView.View>
         </ListView>
         <Button Name="add" Content="ADD" HorizontalAlignment="Left" Margin="605,104,0,0" VerticalAlignment="Top" Height="40" Width="65" Click="add_Click"/>
-        <Button Name="save" Content="ZAPIS DO CSV" HorizontalAlignment="Left" Margin="290,384,0,0" VerticalAlignment="Top" Height="25" Width="90"/>
-        <Button Name="read" Content="ODCZYT Z CSV" HorizontalAlignment="Left" Margin="420,384,0,0" VerticalAlignment="Top" Height="25" Width="90"/>
+        <Button Name="save" Content="ZAPIS DO CSV" HorizontalAlignment="Left" Margin="290,384,0,0" VerticalAlignment="Top" Height="25" Width="90" Click="save_Click"/>
+        <Button Name="read" Content="ODCZYT Z CSV" HorizontalAlignment="Left" Margin="420,384,0,0" VerticalAlignment="Top" Height="25" Width="90" Click="read_Click"/>
     </Grid>
 </Window>
