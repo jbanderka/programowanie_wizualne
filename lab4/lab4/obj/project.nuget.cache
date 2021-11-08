@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eChbcpSN5CigwVFL8y3766rJT+bRuq9X9e+YME7ej+T1THPV8cevWZ3P09t9kl05qgu8iaTVqz3Rm2BAAZM13w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julia\\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\\studia\\semestr V\\programowanie wizualne\\lab4\\lab4\\lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
