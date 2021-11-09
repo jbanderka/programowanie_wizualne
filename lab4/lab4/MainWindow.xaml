@@ -10,8 +10,8 @@
         <Button Name="choose" Content="CHOOSE" HorizontalAlignment="Left" Margin="120,74,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05" Click="Choose_Click"/>
         <Button Name="mirror" Content="A" HorizontalAlignment="Left" Margin="120,139,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05" Click="mirror_Click"/>
         <Button Name="turn" Content="B" HorizontalAlignment="Left" Margin="120,202,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05" Click="turn_Click"/>
-        <Button Name="green" Content="C" HorizontalAlignment="Left" Margin="120,269,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05"/>
-        <Button Name="neg" Content="D" HorizontalAlignment="Left" Margin="120,329,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05"/>
+        <Button Name="green" Content="C" HorizontalAlignment="Left" Margin="120,269,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05" Click="green_Click"/>
+        <Button Name="neg" Content="D" HorizontalAlignment="Left" Margin="120,329,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.5,1.05" Click="neg_Click"/>
         <Image Name="img" HorizontalAlignment="Left" Margin="295,94,0,0" VerticalAlignment="Top" Height="252" Width="390" />
 
 

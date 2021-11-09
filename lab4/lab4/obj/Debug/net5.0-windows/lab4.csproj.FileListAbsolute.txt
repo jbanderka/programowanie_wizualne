@@ -20,3 +20,9 @@ C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\se
 C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\obj\Debug\net5.0-windows\ref\lab4.dll
 C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\obj\Debug\net5.0-windows\lab4.pdb
 C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\obj\Debug\net5.0-windows\lab4.genruntimeconfig.cache
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\System.Drawing.Common.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab4\lab4\bin\Debug\net5.0-windows\System.Drawing.VisualStudio.15.0.dll
