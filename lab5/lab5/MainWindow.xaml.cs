@@ -34,27 +34,83 @@ namespace lab5
             {
                 string seqText = File.ReadAllText(sequenceFile.FileName);
                 string noWhiteSpaces = String.Concat(seqText.Where(c => !Char.IsWhiteSpace(c)));
-                sequenceBox.Text = noWhiteSpaces;
+                sequenceBox.Selection.Text = noWhiteSpaces;
+                allPatterns.Clear();
+                choosePattern.SelectedItem = null;
+                choosePattern.Items.Clear();
             }
         }
 
         private void find_Click(object sender, RoutedEventArgs e)
         {
-            Algorithm algorithm = new Algorithm(sequenceBox.Text, 3);
+            Algorithm algorithm = new Algorithm();
+            Dictionary<string, int> foundPatterns = algorithm.findPatterns(sequenceBox.Selection.Text, 4);
+            foreach (KeyValuePair<string, int> entry in foundPatterns)
+            {
+                allPatterns.Text += entry.Key + " - " + entry.Value + Environment.NewLine;
+                choosePattern.Items.Add(entry.Key);
+            }
+        }
+
+        private void choosePattern_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(e.AddedItems.Count > 0)
+            {
+                string selectedPattern = e.AddedItems[0].ToString();
+                TextRange wholeSequence = new TextRange(sequenceBox.Document.ContentStart, sequenceBox.Document.ContentEnd);
+                wholeSequence.ClearAllProperties();
+                for (TextPointer start = sequenceBox.Document.ContentStart;
+                        start.CompareTo(sequenceBox.Document.ContentEnd) <= 0;
+                            start = start.GetNextContextPosition(LogicalDirection.Forward))
+                {
+                    if (start.CompareTo(sequenceBox.Document.ContentEnd) == 0)
+                        break;
+                    string tmpString = start.GetTextInRun(LogicalDirection.Forward);
+                    int indexOfTmpString = tmpString.IndexOf(selectedPattern);
+                    if (indexOfTmpString >= 0)
+                    {
+                        start = start.GetPositionAtOffset(indexOfTmpString);
+                        if (start != null)
+                        {
+                            TextPointer end = start.GetPositionAtOffset(selectedPattern.Length);
+                            TextRange selection = new TextRange(start, end);
+                            if (selection.Text == selectedPattern)
+                                selection.ApplyPropertyValue(TextElement.BackgroundProperty, new SolidColorBrush(Colors.LightPink));
+                        }
+                    }
+                }
+            }
         }
     }
 
     public class Algorithm
     {
-        public Algorithm(string sequence, int k)
+        public Algorithm() { }
+
+        public Dictionary<string, int> findPatterns(string sequence, int k)
         {
-            findPatterns(sequence, k);
+            string pattern;
+            int count;
+            Dictionary<string, int> allPatterns = new Dictionary<string, int>();
+            for (int i = 0; i < (sequence.Length - k); i++)
+            {
+                pattern = sequence.Substring(i, k);
+                count = patternCount(sequence, pattern);
+                if((count > 1) && !allPatterns.ContainsKey(pattern))
+                    allPatterns.Add(pattern, count);
+            }
+            return allPatterns;
         }
 
-        private void findPatterns(string sequence, int k)
+        private int patternCount(string sequence, string pattern)
         {
-            string foundPatterns = "";
-
+            int count = 0;
+            for(int i = 0; i < (sequence.Length - pattern.Length); i++)
+            {
+                if(sequence.Substring(i, pattern.Length) == pattern)
+                    count++;
+            }
+            return count;
         }
     }
 }
