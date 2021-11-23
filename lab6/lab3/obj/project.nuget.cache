@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "1YKQf/3HSqiOrjuUDZX7IVZN6B/HjfVpVmgoqqU0rQnz6XvhYl+PKWJItPRXOvNHOnSOtAW70MeuZdPD9eECAw==",
+  "dgSpecHash": "sNELu3SBlyWYYokqd9D7TK/ZarMHYz/7g2u1TudFZ2DbUop2FY9jQkt6AYQPqxeI7y/wLA81kvcEco1/4yHJeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\\studia\\semestr V\\programowanie wizualne\\lab3\\lab3\\lab6.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\julia\\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\\studia\\semestr V\\programowanie wizualne\\lab6\\lab3\\lab6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
