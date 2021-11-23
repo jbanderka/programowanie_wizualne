@@ -1,0 +1,17 @@
+﻿<Window x:Class="lab6.WindowAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab3"
+        mc:Ignorable="d"
+        Title="WindowAdd" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="addName" HorizontalAlignment="Left" Margin="280,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="27" TextAlignment="Center"/>
+        <TextBox Name="addCount" HorizontalAlignment="Left" Margin="427,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="27" TextAlignment="Center"/>
+        <Label Content="NAME:" HorizontalAlignment="Left" Margin="281,191,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="89" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="COUNT:" HorizontalAlignment="Left" Margin="427,191,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="90" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Name="addRow" Content="ADD" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top" Height="25" Width="55" Click="addRow_Click"/>
+
+    </Grid>
+</Window>
