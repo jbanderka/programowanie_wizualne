@@ -1,0 +1,34 @@
+﻿<Window x:Class="lab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListView Name="readers" Margin="55,90,480,90" BorderBrush="Black">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Imię" Width="90" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Nazwisko" Width="100" DisplayMemberBinding="{Binding Surname}" />
+                    <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding Id}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView Name="books" Margin="438,90,32,90">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Tytuł" Width="90" DisplayMemberBinding="{Binding Title}" />
+                    <GridViewColumn Header="Autor" Width="90" DisplayMemberBinding="{Binding Author}" />
+                    <GridViewColumn Header="ID" Width="40" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn Header="Wypożyczona" Width="90" DisplayMemberBinding="{Binding CheckedOut}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="addReader" Content="Dodaj czytelnika" HorizontalAlignment="Left" Margin="134,364,0,0" VerticalAlignment="Top" Height="30" Width="106" Click="AddReader_Click"/>
+        <Button Name="addBook" Content="Dodaj książkę" HorizontalAlignment="Left" Margin="550,364,0,0" VerticalAlignment="Top" Height="30" Width="106" Click="AddBook_Click"/>
+        <Button Name="checkOut" Content="Wypożycz" HorizontalAlignment="Left" Margin="343,169,0,0" VerticalAlignment="Top" Width="72" Height="35" Click="CheckOut_Click"/>
+        <Button Name="returnBook" Content="Oddaj" HorizontalAlignment="Left" Margin="343,217,0,0" VerticalAlignment="Top" Width="72" Height="35" Click="Return_Click"/>
+    </Grid>
+</Window>
