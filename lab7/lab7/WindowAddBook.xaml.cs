@@ -30,7 +30,7 @@ namespace lab7
         {
             mainWindow.idBook += 1;
             List<Book> booksList = (List<Book>)mainWindow.books.ItemsSource;
-            booksList.Add(new Book() { Title = addTitle.Text, Author = addAuthor.Text, Id = mainWindow.idBook, CheckedOut = false, WhoRented = -1 });
+            booksList.Add(new Book() { Title = addTitle.Text, Author = addAuthor.Text, Id = mainWindow.idBook, WhoRented = "-" });
             mainWindow.books.ItemsSource = booksList;
             mainWindow.books.Items.Refresh();
             this.Close();

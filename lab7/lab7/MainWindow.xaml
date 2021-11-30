@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Closing="MainWindow_Closing">
     <Grid>
         <ListView Name="readers" Margin="55,90,480,90" BorderBrush="Black">
             <ListView.View>
@@ -16,13 +17,13 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView Name="books" Margin="438,90,32,90">
+        <ListView Name="books" Margin="438,90,32,90" BorderBrush="Black">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Tytuł" Width="90" DisplayMemberBinding="{Binding Title}" />
                     <GridViewColumn Header="Autor" Width="90" DisplayMemberBinding="{Binding Author}" />
                     <GridViewColumn Header="ID" Width="40" DisplayMemberBinding="{Binding Id}" />
-                    <GridViewColumn Header="Wypożyczona" Width="90" DisplayMemberBinding="{Binding CheckedOut}" />
+                    <GridViewColumn Header="Wypożyczona" Width="90" DisplayMemberBinding="{Binding WhoRented}" />
                 </GridView>
             </ListView.View>
         </ListView>
