@@ -7,9 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox Name="airportsList" Margin="65,73,480,72"/>
-        <Label Content="Lista lotnisk" HorizontalAlignment="Left" Margin="148,44,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <StackPanel Margin="480,154,165,153">
+        <Label Content="Lista lotnisk" HorizontalAlignment="Left" Margin="190,64,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <ListView Name="airportsList" Margin="69,98,400,60">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nazwa lotniska"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Margin="480,119,165,153">
             <CheckBox Name="icaoCode" Content="Kod lotniska ICAO" Height="25"/>
             <CheckBox Name="iataCode" Content="Kod lotniska IATA" Height="25"/>
             <CheckBox Name="passengersNumber" Content="Liczba pasażerów" Height="25"/>

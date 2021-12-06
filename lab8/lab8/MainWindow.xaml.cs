@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,21 +23,71 @@ namespace lab8
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Airport> allAirports;
         public MainWindow()
         {
             InitializeComponent();
-            // string allFileContent;
-            int NumOfAirportFiles = 7;
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-            {
+            airportsList.ItemsSource = new List<string>();
+            allAirports = new List<Airport>();
 
+            OpenFileDialog openFile = new OpenFileDialog();
+            if (openFile.ShowDialog() == true)
+            {
+                using (TextFieldParser csvParser = new TextFieldParser(openFile.FileName))
+                {
+                    csvParser.CommentTokens = new string[] { "#" };
+                    csvParser.SetDelimiters(new string[] { "," });
+                    csvParser.HasFieldsEnclosedInQuotes = true;
+
+                    bool skipFirst = true;
+
+                    while (!csvParser.EndOfData)
+                    {
+                        string[] fields = csvParser.ReadFields();
+                        if(skipFirst)
+                        {
+                            skipFirst = false;
+                        }
+                        else
+                        {
+                            List<string> allAirportsNames = (List<string>)airportsList.ItemsSource;
+                            allAirportsNames.Add(fields[4]);
+                            airportsList.ItemsSource = allAirportsNames;
+                            airportsList.Items.Refresh();
+                            allAirports.Add(new Airport
+                            {
+                                City = fields[0],
+                                Voivodeship = fields[1],
+                                ICAO = fields[2],
+                                IATA = fields[3],
+                                Name = fields[4],
+                                Passengers = fields[5],
+                                Change = fields[6]
+                            });
+                        }
+                    }
+                }
             }
         }
 
         private void seeDetails_Click(object sender, RoutedEventArgs e)
         {
-
+            if (airportsList.SelectedIndex < 0)
+            {
+                MessageBox.Show("W celu wyświetlenia szczegółów należy wybrać lotnisko!",
+                    "Błąd wyświetlenia szczegółów", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            else
+            {
+                DetailsWindow detailsWindow = new DetailsWindow(this);
+                detailsWindow.Show();
+                airportsList.SelectedIndex = -1;
+                icaoCode.IsChecked = false;
+                iataCode.IsChecked = false;
+                passengersNumber.IsChecked = false;
+                voivodeship.IsChecked = false;
+                city.IsChecked = false;
+            }
         }
     }
 
@@ -47,7 +98,7 @@ namespace lab8
         public string ICAO { get; set; }
         public string IATA { get; set; }
         public string Name { get; set; }
-        public int Passengers { get; set; }
-        public int Change { get; set; }
+        public string Passengers { get; set; }
+        public string Change { get; set; }
     }
 }

@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="DetailsWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox Name="details" HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="316" Height="120" TextAlignment="Center" BorderBrush="Black"/>
+        <Button Name="closeWindow" Content="Zamknij" HorizontalAlignment="Center" Margin="0,282,0,0" VerticalAlignment="Top" Height="32" Width="70" Click="closeWindow_Click"/>
     </Grid>
 </Window>
