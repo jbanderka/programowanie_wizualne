@@ -33,7 +33,7 @@ namespace lab9
                 if (openDialog.ShowDialog() == true)
                 {
                     string allData = File.ReadAllText(openDialog.FileName);
-                    string[] dataToRead = allData.Split('\n');
+                    string[] dataToRead = allData.Split("|\n");
 
                     graduateWorkType.SelectedIndex = int.Parse(elementToRead(dataToRead[0]));
                     university.Text = elementToRead(dataToRead[1]);
@@ -84,9 +84,9 @@ namespace lab9
         {
             string toAdd = "";
             if(element == "")
-                toAdd = "." + '\n';
+                toAdd = "." + "|\n";
             else
-                toAdd = element + '\n';
+                toAdd = element + "|\n";
             return toAdd;
         }
 
