@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:lab11"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox Name="inputText" HorizontalAlignment="Center" Margin="0,59,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Height="105" BorderBrush="Black"/>
-        <TextBox Name="outputText" HorizontalAlignment="Center" Margin="0,284,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Height="105" BorderBrush="Black"/>
-        <Button Name="hideText" Content="Ukryj" HorizontalAlignment="Left" Margin="240,0,0,0" VerticalAlignment="Center" Height="42" Width="80" Click="hideText_Click"/>
-        <Button Name="saveText" Content="Save" HorizontalAlignment="Left" Margin="480,0,0,0" VerticalAlignment="Center" Height="42" Width="80" Click="saveText_Click"/>
-        <Label Content="Tekst do hashowania:" HorizontalAlignment="Left" Margin="170,33,0,0" VerticalAlignment="Top"/>
-        <Label Content="Zahashowany tekst:" HorizontalAlignment="Left" Margin="170,253,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="key" HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="100" Height="42" BorderBrush="Black"/>
-        <Label Content="Klucz szyfrujący:" HorizontalAlignment="Left" Margin="350,170,0,0" VerticalAlignment="Top"/>
+    <Grid Margin="0,0,0,-6">
+        <TextBox Name="inputText" HorizontalAlignment="Left" Margin="167,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Height="105" BorderBrush="Black"/>
+        <TextBox Name="outputText" HorizontalAlignment="Center" Margin="0,293,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Height="105" BorderBrush="Black" IsReadOnly="True"/>
+        <Button Name="hideText" Content="Ukryj" HorizontalAlignment="Left" Margin="240,205,0,0" VerticalAlignment="Top" Height="42" Width="80" Click="hideText_Click"/>
+        <Button Name="saveText" Content="Save" HorizontalAlignment="Left" Margin="480,205,0,0" VerticalAlignment="Top" Height="42" Width="80" Click="saveText_Click"/>
+        <Label Content="Tekst do szyfrowania:" HorizontalAlignment="Left" Margin="167,21,0,0" VerticalAlignment="Top"/>
+        <Label Content="Zaszyfrowany tekst:" HorizontalAlignment="Left" Margin="170,262,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="key" HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="42" BorderBrush="Black" Margin="0,205,0,0"/>
+        <Label Content="Klucz szyfrujący:" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
