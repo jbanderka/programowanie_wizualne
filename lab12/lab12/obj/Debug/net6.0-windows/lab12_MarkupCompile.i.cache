@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\julia\OneDrive - Uniwersytet im. Adama Mickiewicza w Poznaniu\studia\semestr V\programowanie wizualne\lab12\lab12\App.xaml
-11407045341
+3-610347920
 
-5-1864113762
+7216460697
 1941142463650
-MainWindow.xaml;
+ButtonsWindow.xaml;MainWindow.xaml;SummaryWindow.xaml;
 
-False
+True
 

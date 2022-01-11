@@ -27,7 +27,10 @@ namespace lab12
 
         private void start_Click(object sender, RoutedEventArgs e)
         {
-
+            int animalIndex = animal.SelectedIndex;
+            int levelIndex = level.SelectedIndex;
+            ButtonsWindow buttonsWindow = new ButtonsWindow(animalIndex, levelIndex);
+            buttonsWindow.Show();
         }
     }
 }

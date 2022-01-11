@@ -9,13 +9,13 @@
     <Grid>
         <Label Content="Catcher" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <ComboBox Name="animal" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem>Mouse</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Mouse</ComboBoxItem>
             <ComboBoxItem>Fish</ComboBoxItem>
             <ComboBoxItem>Cat</ComboBoxItem>
             <ComboBoxItem>Crocodile</ComboBoxItem>
         </ComboBox>
         <ComboBox Name="level" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem>Easy</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Easy</ComboBoxItem>
             <ComboBoxItem>Normal</ComboBoxItem>
             <ComboBoxItem>Hard</ComboBoxItem>
         </ComboBox>
